@@ -2,9 +2,9 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "electron ./src/main.js"
+    "start": "electron ./src/index.js"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^14.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.0.0"
   }
 }

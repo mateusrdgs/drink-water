@@ -11,7 +11,7 @@ class Window extends BrowserWindow {
     super({ ...defaultProps, ...options })
 
     this.loadFile(file)
-    this.webContents.openDevTools()
+    // this.webContents.openDevTools()
   }
 
   init() {
