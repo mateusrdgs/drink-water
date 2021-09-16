@@ -1,5 +1,7 @@
-const INPUT_WEIGHT = 'INPUT_WEIGHT'
+const INPUT_WEIGHT = '[INPUT] WEIGHT'
+const INPUT_HOURS = '[INPUT] HOURS'
 
 module.exports = {
-  INPUT_WEIGHT
+  INPUT_WEIGHT,
+  INPUT_HOURS
 }
